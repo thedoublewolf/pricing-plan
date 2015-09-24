@@ -1,0 +1,45 @@
+.links {
+	text-indent: 10px;
+	padding: 10px;
+	margin-left: 200px;
+}
+
+.links a {
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #7D7D7D;
+}
+
+.logo {
+	color: #5B6269;
+	padding-right: 10px;
+}
+
+.pricing {
+	color: black;
+}
+
+.header {
+	height: 415px;
+	overflow: hidden;
+	font-family: helvetica;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+/*	display: inline-block;
+	position: relative;*/
+}
+
+.header-text {
+	font-size: 30px;
+	color: white;
+	text-shadow: 1px 2px 1px black;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
