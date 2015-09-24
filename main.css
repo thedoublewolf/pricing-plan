@@ -1,5 +1,7 @@
 ul {
 	list-style: none;
+	padding: 0;
+	text-align: center;
 }
 
 .links {
@@ -37,38 +39,45 @@ a {
 }
 
 .header-text {
-	height: 415px;
 	font-size: 50px;
 	color: white;
 	text-shadow: -1px 1px 1px black;
 	text-align: center;
 	margin: auto;
 	position: absolute;
-	top: 70%;
+	top: 35%;
 	left: 0;
 	bottom: 0;
 	right: 0;
 }
 
 .plans {
-	text-align: center;
 	/*margin: auto;*/
+	border: 1px dotted red;
+	margin-top: 30px;
 }
 
 .price {
 	display: inline-block;
 	margin: auto;
-	margin-left: 100px;
-	margin-right: 100px;
 	vertical-align: middle;	
 }
 
 .plan-one {
+	border: 1px dotted red;
+}
 
+.plan-two {
+	border: 1px dotted red;
+}
+
+.plan-three {
+	border: 1px dotted red;
 }
 
 
 .button {
+	color: black;
 	border-radius: 20px;
 	background: #eeeeee;
 	padding: 10px 20px 10px 20px;
