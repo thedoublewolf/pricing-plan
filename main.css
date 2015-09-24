@@ -46,3 +46,27 @@ a {
 	right: 0;
 }
 
+.price-plans {
+	text-align: center;
+}
+
+.price {
+	display: inline-block;
+	margin: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	vertical-align: middle;
+	
+}
+
+.button {
+	border-radius: 20px;
+	background: #eeeeee;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid lightgrey;
+	font-weight: bold;
+}
+.button:hover {
+	background: lightgrey;
+}
+
