@@ -1,3 +1,7 @@
+ul {
+	list-style: none;
+}
+
 .links {
 	text-indent: 10px;
 	padding: 10px;
@@ -46,8 +50,9 @@ a {
 	right: 0;
 }
 
-.price-plans {
+.plans {
 	text-align: center;
+	/*margin: auto;*/
 }
 
 .price {
@@ -55,9 +60,13 @@ a {
 	margin: auto;
 	margin-left: 100px;
 	margin-right: 100px;
-	vertical-align: middle;
-	
+	vertical-align: middle;	
 }
+
+.plan-one {
+
+}
+
 
 .button {
 	border-radius: 20px;
