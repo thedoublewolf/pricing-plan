@@ -11,6 +11,7 @@ ul {
 
 .price {
 	border: none;
+	padding: 5px;
 }
 
 li {
@@ -49,7 +50,6 @@ a {
 	background-size: cover;
 	overflow: hidden;
 	font-family: helvetica;
-
 }
 
 .background p {
@@ -64,58 +64,62 @@ a {
 
 .plans {
 	margin-top: 30px;
-	font-family: helvetica;
+
 }
 
 .price {
 	display: inline-block;
-	margin: auto;
-	vertical-align: middle;	
 }
 
 .plan-one {
 	background-color: #5A9247;
 	border: none;
+	font-weight: 300;
 }
 
 .plan-two {
-		background-color: #2D488A;
-		border: none;
+	background-color: #2D488A;
+	border: none;
+	font-weight: 300;
 }
 
 .plan-three {
-		background-color: #101010;
-		border: none;
+	background-color: #101010;
+	border: none;
+	font-weight: 300;
 }
 
 .plan-type {
-	border-bottom: none;
-	padding: 5;
+	border: none;
 	color: white;
+	padding: 0;
+	letter-spacing: 0.3em;
 }
 
 .cost {
-	border-top: none;
-	border-bottom: none;
+	border: none;
 	padding: 0;
 	font-size: 100px;
 	color: white;
 }
 
 .per {
-	border-top: none;
-	padding: 5;
+	border: none;
+	padding: 0;
 	color: white;
+	opacity: 0.5;
+
 }
 
 .list {
 	background: #F7F7F7;
+	color: #536067;
 }
 
 .button {
-	color: black;
+	color: #333333;
 	border-radius: 20px;
-	background: #eeeeee;
+	background: white;
 	padding: 10px 20px 10px 20px;
 	border: 1px solid lightgrey;
 	font-weight: bold;
@@ -128,4 +132,3 @@ a {
 	border-bottom: 1px solid lightgrey;
 	background: white;
 }
-
