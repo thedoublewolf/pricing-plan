@@ -168,7 +168,7 @@ a {
 }
 
 .paragraphs-two {
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 	padding-left: 25px;
 	margin-left: auto;
 	margin-right: auto;
@@ -176,7 +176,6 @@ a {
 .paragraph3 {
 	display: inline-block;
 	width: 420px;
-	height: 420px;
 	padding: 15px;
 	position: relative;
 }
@@ -197,6 +196,18 @@ a {
 .pbody {
 	color: #536067;
 	line-height: 1.5;
+}
+
+footer {
+	color: grey;
+	background: black;
+	text-align: center;
+	padding: 30px;
+}
+
+footer a {
+	color: white;
+	text-decoration: underline;
 }
 
 
