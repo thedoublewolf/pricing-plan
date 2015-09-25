@@ -1,12 +1,6 @@
-ul {
-	list-style: none;
-	padding: 0;
-	text-align: center;
-	margin: auto;
-}
-
 .description {
 	width: 300px;
+	list-style: none;
 }
 
 .price {
@@ -16,7 +10,7 @@ ul {
 
 li {
 	border: 1px solid lightgrey;
-	padding: 20px;
+	padding: 15px;
 	border-bottom: none;
 }
 
@@ -62,31 +56,43 @@ a {
 	padding-top: 150px;
 }
 
+.body {
+	width: 1000px;
+}
+
 .plans {
 	margin-top: 30px;
-
+	list-style: none;
+	padding: 0;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .price {
 	display: inline-block;
+	text-align: center;
 }
 
 .plan-one {
 	background-color: #5A9247;
 	border: none;
-	font-weight: 300;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .plan-two {
 	background-color: #2D488A;
 	border: none;
-	font-weight: 300;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .plan-three {
 	background-color: #101010;
 	border: none;
-	font-weight: 300;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .plan-type {
@@ -94,6 +100,7 @@ a {
 	color: white;
 	padding: 0;
 	letter-spacing: 0.3em;
+	font-weight: 400;
 }
 
 .cost {
@@ -101,6 +108,7 @@ a {
 	padding: 0;
 	font-size: 100px;
 	color: white;
+	font-weight: 300;
 }
 
 .per {
@@ -108,7 +116,8 @@ a {
 	padding: 0;
 	color: white;
 	opacity: 0.5;
-
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .list {
@@ -131,4 +140,53 @@ a {
 .choose {
 	border-bottom: 1px solid lightgrey;
 	background: white;
+	padding: 35px;
 }
+
+.paragraphs-one {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.paragraph1 {
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+	margin: 0 auto;
+}
+.paragraph2 {
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+}
+
+.paragraphs-two {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.paragraph3 {
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+}
+.paragraph4 {
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
