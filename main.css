@@ -5,8 +5,8 @@ ul {
 	margin: auto;
 }
 
-ul div p {
-	margin: 0;
+.description {
+	width: 300px;
 }
 
 .price {
@@ -14,8 +14,9 @@ ul div p {
 }
 
 li {
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
 	padding: 20px;
+	border-bottom: none;
 }
 
 .links {
@@ -58,10 +59,12 @@ a {
 	text-align: center;
 	display: block;
 	margin: 0;
+	padding-top: 150px;
 }
 
 .plans {
 	margin-top: 30px;
+	font-family: helvetica;
 }
 
 .price {
@@ -71,12 +74,42 @@ a {
 }
 
 .plan-one {
+	background-color: #5A9247;
+	border: none;
 }
 
 .plan-two {
+		background-color: #2D488A;
+		border: none;
 }
 
 .plan-three {
+		background-color: #101010;
+		border: none;
+}
+
+.plan-type {
+	border-bottom: none;
+	padding: 5;
+	color: white;
+}
+
+.cost {
+	border-top: none;
+	border-bottom: none;
+	padding: 0;
+	font-size: 100px;
+	color: white;
+}
+
+.per {
+	border-top: none;
+	padding: 5;
+	color: white;
+}
+
+.list {
+	background: #F7F7F7;
 }
 
 .button {
@@ -89,5 +122,10 @@ a {
 }
 .button:hover {
 	background: lightgrey;
+}
+
+.choose {
+	border-bottom: 1px solid lightgrey;
+	background: white;
 }
 
