@@ -2,6 +2,20 @@ ul {
 	list-style: none;
 	padding: 0;
 	text-align: center;
+	margin: auto;
+}
+
+ul div p {
+	margin: 0;
+}
+
+.price {
+	border: none;
+}
+
+li {
+	border: 1px solid grey;
+	padding: 20px;
 }
 
 .links {
@@ -34,6 +48,7 @@ a {
 	background-size: cover;
 	overflow: hidden;
 	font-family: helvetica;
+
 }
 
 .background p {
@@ -41,12 +56,11 @@ a {
 	color: white;
 	text-shadow: -1px 1px 1px black;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	margin: 0;
 }
 
 .plans {
-	/*margin: auto;*/
-	border: 1px dotted red;
 	margin-top: 30px;
 }
 
@@ -57,17 +71,13 @@ a {
 }
 
 .plan-one {
-	border: 1px dotted red;
 }
 
 .plan-two {
-	border: 1px dotted red;
 }
 
 .plan-three {
-	border: 1px dotted red;
 }
-
 
 .button {
 	color: black;
