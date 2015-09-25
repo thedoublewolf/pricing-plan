@@ -11,3 +11,7 @@ Those things:
 From here on, I need to focus on writing my CSS more efficiently.  This will help out with my confusing concepts and doubting myself, only to find that I've written something wrong or confused an element with something else.
 
 The CSS Layout tutorial included in previous notes helped out a lot.  I will definitely be coming back to that in the coming weeks.
+
+
+
+Also, I made the Choose buttons "interactive" for extra credit ¯\_(ツ)_/¯
