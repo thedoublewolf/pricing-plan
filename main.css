@@ -1,6 +1,6 @@
 .description {
-	width: 300px;
 	list-style: none;
+	padding: 0;
 }
 
 .price {
@@ -57,14 +57,15 @@ a {
 }
 
 .body {
-	width: 1000px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .plans {
 	margin-top: 30px;
 	list-style: none;
 	padding: 0;
-	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -72,6 +73,9 @@ a {
 .price {
 	display: inline-block;
 	text-align: center;
+	padding: 0;
+	width:300px;
+	margin-right: 12px;
 }
 
 .plan-one {
@@ -144,7 +148,7 @@ a {
 }
 
 .paragraphs-one {
-	width: 1000px;
+	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -152,7 +156,6 @@ a {
 	display: inline-block;
 	width: 300px;
 	text-align: left;
-	margin: 0 auto;
 }
 .paragraph2 {
 	display: inline-block;
@@ -161,7 +164,7 @@ a {
 }
 
 .paragraphs-two {
-	width: 1000px;
+	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 }
